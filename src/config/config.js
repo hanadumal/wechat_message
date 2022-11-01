@@ -1,8 +1,8 @@
 const params = {
-  appid: 'wxb98e44f5e7a956a0',
-  secret: 'a55ef17ddaa3c5bf0cabd344e6c7d17e',
-  touser: 'ohqRj6EBIUp4gzIQ3mUbULM9uQnQ',
-  template_id: 'LvDuTb8njKAv-nG_2L2GT-bkZPCJi_xmmk1Zn5zRF1U',
+  appid: 'wxe13d7e2b43111126',
+  secret: '6632ac19c6243a4ab15b2e6250ddaed8',
+  touser: 'om4Xm6E9qldCxpvZsKQazVTyIRGc',
+  template_id: 'sBoMRFmoVkkaTD1W32jW_kw2fqM6iYPTtCy2gPAyiII',
 }
 
 const listConfig = {
@@ -52,7 +52,7 @@ function verifyEmpty() {
 // 校验为空
 if (verifyEmpty()) {
   console.error(
-    '警告：请完善 “/src/config/config.js中的配置项: ' +
+      '警告：请完善 “/src/config/config.js中的配置项: ' +
       verifyEmpty() +
       '”的内容,再执行代码！'
   )
